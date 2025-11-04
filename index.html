@@ -7,26 +7,6 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<!-- Home Section -->
-<section id="home" class="section home" style="position: relative; text-align: center; color: white; overflow: hidden;">
-
-  <!-- Hero Banner Background -->
-  <img src="images/hero-banner.png" 
-       alt="Data Analyst Hero Banner"
-       style="width:100%; height:70vh; object-fit:cover; filter:brightness(0.4);">
-
-  <!-- Overlay Text -->
-  <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);">
-    <h1 style="font-size:2.8rem; margin-bottom:10px;">
-      Hi, I'm <span style="color:#00bcd4;">Shivgiri Goswami</span>
-    </h1>
-    <p style="font-size:1.3rem;">Data Analyst | System Administrator | Tech Enthusiast</p>
-    <a href="#projects" 
-       style="display:inline-block; margin-top:20px; padding:12px 28px; background-color:#00bcd4; color:white; text-decoration:none; border-radius:8px; font-weight:600; transition:0.3s;">
-       View My Work
-    </a>
-  </div>
-</section>
 
   <!-- Navigation -->
   <nav class="navbar">
@@ -39,22 +19,75 @@
     </ul>
   </nav>
 
-  <!-- Home Section -->
-  <section id="home" class="section home">
-    <h1>Hi, I'm <span>Shivgiri Goswami</span></h1>
-    <p>Data Analyst | System Administrator | Tech Enthusiast</p>
+  <!-- Hero Section -->
+  <section id="home" class="section home" style="position: relative; text-align: center; color: white; overflow: hidden;">
+    <!-- Hero Banner Background -->
+    <img src="images/hero-banner.png" 
+         alt="Data Analyst Hero Banner"
+         style="width:100%; height:70vh; object-fit:cover; filter:brightness(0.4);">
+
+    <!-- Overlay Text -->
+    <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);">
+      <h1 style="font-size:2.8rem; margin-bottom:10px;">
+        Hi, I'm <span style="color:#00bcd4;">Shivgiri Goswami</span>
+      </h1>
+      <p style="font-size:1.3rem;">Data Analyst | Data Scientist </p>
+      <a href="#projects" 
+         style="display:inline-block; margin-top:20px; padding:12px 28px; background-color:#00bcd4; color:white; text-decoration:none; border-radius:8px; font-weight:600; transition:0.3s;">
+         View My Work
+      </a>
+    </div>
   </section>
 
   <!-- About Section -->
-  <section id="about" class="section">
-    <h2>About Me</h2>
-    <p>I’m a passionate tech professional skilled in data analysis, system administration, and network security. I enjoy solving real-world problems using data and technology.</p>
-  </section>
+ <!-- About Section -->
+<section id="about" class="section" style="padding:80px 20px; background:#0a0a0a; color:#fff;">
+  <div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:50px; max-width:1100px; margin:auto;">
+
+    <!-- Avatar -->
+    <div style="flex:1; min-width:260px; text-align:center;">
+      <img src="images/profile-avatar.png" 
+           alt="Shivgiri Goswami Avatar" 
+           style="width:250px; height:250px; border-radius:50%; object-fit:cover; box-shadow:0 0 25px rgba(0,188,212,0.6);">
+    </div>
+
+    <!-- About Content -->
+    <div style="flex:2; min-width:300px; text-align:left;">
+      <h2 style="color:#00bcd4; margin-bottom:15px;">About Me</h2>
+      <p style="font-size:1.1rem; line-height:1.7; margin-bottom:20px;">
+        I’m <strong>Shivgiri Goswami</strong>, a passionate <strong>Data Analyst & Data Scientist</strong> who thrives on discovering insights hidden within data.  
+        I turn raw information into clear, actionable strategies that help businesses make smarter, faster decisions.
+      </p>
+      <p style="font-size:1.1rem; line-height:1.7; margin-bottom:30px;">
+        I work with <strong>Python, Power BI, SQL, Excel, and Machine Learning</strong> — using data visualization, automation, and predictive modeling  
+        to create value from information. My focus is on blending technical precision with analytical storytelling.
+      </p>
+
+      <!-- Skills Grid -->
+      <div style="display:flex; flex-wrap:wrap; gap:15px;">
+        <span style="background:#111; padding:10px 20px; border-radius:8px; border:1px solid #00bcd4;">Data Analysis</span>
+        <span style="background:#111; padding:10px 20px; border-radius:8px; border:1px solid #00bcd4;">Data Visualization</span>
+        <span style="background:#111; padding:10px 20px; border-radius:8px; border:1px solid #00bcd4;">Machine Learning</span>
+        <span style="background:#111; padding:10px 20px; border-radius:8px; border:1px solid #00bcd4;">SQL & Python</span>
+        <span style="background:#111; padding:10px 20px; border-radius:8px; border:1px solid #00bcd4;">Power BI & Excel</span>
+        <span style="background:#111; padding:10px 20px; border-radius:8px; border:1px solid #00bcd4;">Predictive Modeling</span>
+      </div>
+    </div>
+  </div>
+</section>
+
 
   <!-- Resume Section -->
   <section id="resume" class="section">
     <h2>Resume</h2>
-    <p><a href="resume.pdf" target="_blank">Download My Resume</a></p>
+    <p>
+  <a href="images/ShivgiriGoswami_DataAnalyst_Resume.pdf.pdf" 
+     target="_blank" 
+     style="display:inline-block; background-color:#00bcd4; color:white; text-decoration:none; padding:10px 25px; border-radius:8px; font-weight:600;">
+     Download My Resume
+  </a>
+</p>
+
   </section>
 
   <!-- Projects Section -->
@@ -75,8 +108,8 @@
   <!-- Contact Section -->
   <section id="contact" class="section">
     <h2>Contact</h2>
-    <p>Email: shivgirigoswami.256@gmail.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/shivgiri-goswami-238110335/" target="_blank">View Profile</a></p>
+    <p>Email: <a href="mailto:shivgirigoswami.256@gmail.com" style="color:#00bcd4;">shivgirigoswami.256@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/shivgiri-goswami-238110335/" target="_blank" style="color:#00bcd4;">View Profile</a></p>
   </section>
 
   <script src="script.js"></script>
